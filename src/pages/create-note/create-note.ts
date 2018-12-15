@@ -16,7 +16,6 @@ export class CreateNotePage {
   }
 
   constructor(private navCtrl: NavController, private storage: Storage, private alertCtrl: AlertController) {
-    this.storage.clear();
   }
 
   cancel() {
