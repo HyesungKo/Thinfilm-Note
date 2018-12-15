@@ -1,0 +1,8 @@
+{
+  "name": "thinfilm",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "ionic-angular",
+  "id": "d3028daf"
+}

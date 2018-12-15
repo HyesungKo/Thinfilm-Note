@@ -1,0 +1,29 @@
+<ion-header>
+
+  <ion-navbar>
+    <ion-title class="title">New Note</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding>
+  <ion-card class="card">
+    <ion-card-header class="card-header">
+      <ion-item>
+        <ion-label class="label-size" stacked>Note Title</ion-label>
+        <ion-input type="text" placeholder="Type note title" [(ngModel)]="newNote.title"></ion-input>
+      </ion-item>
+    </ion-card-header>
+    <ion-card-content class="card-content">
+      <ion-item class="item">
+        <ion-label class="label-size" stacked>Note Context</ion-label>
+        <ion-textarea type="text" placeholder="Type note context" [(ngModel)]="newNote.context"></ion-textarea>
+      </ion-item>
+    </ion-card-content>
+  </ion-card>
+  <div class="buttons">
+    <button ion-button outline class="button-padding" color="dark" (click)="cancel()">Cancel</button>
+    <button ion-button outline class="button-padding" color="dark" (click)="save()">Save</button>
+  </div>
+</ion-content>

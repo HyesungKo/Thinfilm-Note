@@ -1,0 +1,21 @@
+<ion-header>
+
+  <ion-navbar>
+    <ion-title class="title">Notes</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding>
+  <ion-card class="card" *ngFor="let note of notes">
+    <ion-card-header class="card-header">
+      <ion-label class="label-font" stacked>Note Title</ion-label>
+      <p>{{note.title}}</p>
+    </ion-card-header>
+    <ion-card-content class="card-content">
+      <ion-label class="label-font" stacked>Note Context</ion-label>
+      <p>{{note.context}}</p>
+    </ion-card-content>
+  </ion-card>
+</ion-content>
