@@ -25,7 +25,7 @@ export class HomePage {
 
   //Launch 'https://thinfilmnfc.com' on in-app browser
   openThinfilm() {
-    this.iab.create('https://thinfilmnfc.com');
+    this.iab.create('https://thinfilmnfc.com', '_self');
   }
 
 }
