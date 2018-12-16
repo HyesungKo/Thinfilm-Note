@@ -63,7 +63,7 @@
       "cordova-sqlite-storage": {},
       "cordova-plugin-ionic": {
         "APP_ID": "d3028daf",
-        "CHANNEL_NAME": "Master",
+        "CHANNEL_NAME": "Production",
         "UPDATE_METHOD": "auto",
         "MAX_STORE": "0",
         "WARN_DEBUG": "false",
